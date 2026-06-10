@@ -31,9 +31,9 @@ export default function ProductsSection() {
   const prefersReduced = useReducedMotion();
 
   return (
-    <section id="produits" className="bg-white">
+    <section id="produits" className="bg-white overflow-hidden">
       {/* Section header */}
-      <div className="max-w-7xl mx-auto px-6 md:px-12 pt-24 lg:pt-28 pb-4">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 pt-16 lg:pt-28 pb-4">
         <motion.div
           initial={prefersReduced ? false : { opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ export default function ProductsSection() {
           transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
           className="text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-[#122f6a] mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[#122f6a] mb-4">
             Nos Produits
           </h2>
           <p className="text-[#122f6a]/55 text-base leading-relaxed mx-auto max-w-xl">

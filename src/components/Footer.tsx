@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div>
               <Image
-                src="https://raw.githubusercontent.com/Helmifalfie7/novaice-web/main/assets/logo1.png"
+                src="https://raw.githubusercontent.com/Helmifalfie7/novaice-web/main/assets/logo%20blanc.png"
                 alt="Nova Ice"
                 width={140}
                 height={52}
@@ -77,7 +77,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-white/60 text-sm">
                 <Mail size={14} className="text-[#4bb0ec] shrink-0" strokeWidth={1.5} />
-                contact@nova-ice.tn
+                contact@novaice.tn
               </li>
               <li className="flex items-start gap-3 text-white/60 text-sm">
                 <MapPin size={14} className="text-[#4bb0ec] shrink-0 mt-0.5" strokeWidth={1.5} />

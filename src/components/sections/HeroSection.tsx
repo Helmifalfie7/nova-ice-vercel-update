@@ -42,7 +42,7 @@ function RotatingTextCircle() {
   const cy = 130;
 
   return (
-    <div className="relative w-64 h-64 lg:w-[260px] lg:h-[260px]">
+    <div className="relative w-44 h-44 sm:w-56 sm:h-56 lg:w-[260px] lg:h-[260px]">
       {/* Rotating text ring */}
       <motion.div
         className="absolute inset-0"
@@ -80,7 +80,7 @@ function RotatingTextCircle() {
           bloom={0.55}
           spots={4}
           spotSize={0.6}
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "100%", height: "100%", borderRadius: "50%" }}
         />
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <div className="rounded-full bg-[#0a1f4d]/60 backdrop-blur-sm p-4 border border-[#4bb0ec]/20">
@@ -141,7 +141,7 @@ export default function HeroSection() {
 
             <motion.h1
               {...fadeUp(0.3)}
-              className="text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9]"
+              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9]"
               style={{
                 background:
                   "linear-gradient(135deg, #ffffff 0%, #a8d8f0 35%, #4bb0ec 65%, #122f6a 100%)",
@@ -196,7 +196,7 @@ export default function HeroSection() {
             initial={prefersReduced ? false : { opacity: 0, scale: 0.85 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 1, type: "spring", stiffness: 70 }}
-            className="flex items-center justify-center"
+            className="flex items-center justify-center mt-8 lg:mt-0"
           >
             <RotatingTextCircle />
           </motion.div>

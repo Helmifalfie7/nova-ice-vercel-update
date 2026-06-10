@@ -43,7 +43,7 @@ export default function ValuesSection() {
   const prefersReduced = useReducedMotion();
 
   return (
-    <section className="bg-white py-24 lg:py-32">
+    <section className="bg-white py-16 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <motion.div
           initial={prefersReduced ? false : { opacity: 0, y: 24 }}
@@ -52,7 +52,7 @@ export default function ValuesSection() {
           transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
           className="mb-14 text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-[#122f6a]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[#122f6a]">
             Nos Valeurs
           </h2>
         </motion.div>

@@ -38,7 +38,7 @@ export default function AboutSection() {
   const prefersReduced = useReducedMotion();
 
   return (
-    <section id="apropos" className="bg-white py-24 lg:py-32">
+    <section id="apropos" className="bg-white py-16 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
 
         {/* BLOCK 1 — Two-column grid: text left, sticky card right */}
@@ -51,7 +51,7 @@ export default function AboutSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
-              className="text-4xl md:text-5xl font-bold tracking-tight text-[#122f6a] mb-8"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[#122f6a] mb-8"
             >
               A propos
             </motion.h2>
@@ -80,7 +80,7 @@ export default function AboutSection() {
           </div>
 
           {/* Right: sticky Notre Mission card — plain div owns sticky, motion.div owns animation */}
-          <div className="sticky top-24 self-start h-fit">
+          <div className="lg:sticky lg:top-24 self-start h-fit">
             <motion.div
               initial={prefersReduced ? false : { opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}

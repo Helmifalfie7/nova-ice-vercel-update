@@ -59,7 +59,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
         <a href="#accueil" className="flex items-center">
           <Image
-            src="https://raw.githubusercontent.com/Helmifalfie7/novaice-web/main/assets/generated-logo-modified.png"
+            src="https://raw.githubusercontent.com/Helmifalfie7/novaice-web/main/assets/logo%20blanc2.png"
             alt="Nova Ice"
             width={160}
             height={60}

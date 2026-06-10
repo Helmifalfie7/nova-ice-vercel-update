@@ -48,7 +48,7 @@ export default function WhySection() {
   const prefersReduced = useReducedMotion();
 
   return (
-    <section className="bg-[#e8f4fd]/40 py-24 lg:py-32">
+    <section className="bg-[#e8f4fd]/40 py-16 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}
         <motion.div
@@ -58,7 +58,7 @@ export default function WhySection() {
           transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
           className="mb-14 text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-[#122f6a]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[#122f6a]">
             Pourquoi Choisir Nos Produits ?
           </h2>
         </motion.div>

@@ -33,7 +33,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="bg-[#050d1a] py-24 lg:py-32">
+    <section id="contact" className="bg-[#050d1a] py-16 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_540px] gap-16 lg:gap-20 items-start">
           {/* Left: Info */}
@@ -44,7 +44,7 @@ export default function ContactSection() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
             >
-              <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-5">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-5">
                 Contactez-nous
               </h2>
               <p className="text-white/60 text-base leading-relaxed max-w-sm">
