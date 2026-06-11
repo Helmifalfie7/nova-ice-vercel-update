@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div>
               <Image
-                src="https://raw.githubusercontent.com/Helmifalfie7/novaice-web/main/assets/logo%20blanc.png"
+                src="https://raw.githubusercontent.com/Helmifalfie7/novaice-web/main/assets/logo%20blanc2.png"
                 alt="Nova Ice"
                 width={140}
                 height={52}
